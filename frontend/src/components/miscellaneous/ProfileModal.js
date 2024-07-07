@@ -52,7 +52,7 @@ const ProfileModal = ({ user, children }) => {
             <Image
               borderRadius="full"
               boxSize="150px"
-              src={user.pic}
+              src={"https://avatar.iran.liara.run/public"}
               alt={user.name}
               margin="auto"
             />

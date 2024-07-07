@@ -76,8 +76,9 @@ io.on("connection", (socket) => {
     });
   });
 
-  socket.off("setup", () => {
+  socket.off("setup", () => {  //to save bandwidth
     console.log("USER DISCONNECTED");
     socket.leave(userData._id);
   });
 });
+
